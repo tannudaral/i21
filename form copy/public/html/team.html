@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+	<meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Innerve-2021</title>
+	<meta name="description" content="Grid Layout with Motion Hover Effect and Content Preview" />
+	<meta name="keywords" content="grid, css, layout, template, hover, content, gsap, tweenmax, overlay" />
+	<meta name="author" content="Codrops" />
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="stylesheet" type="text/css" href="../css/team.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+	
+	<script>
+		document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");
+	</script>
+</head>
+
+<body class="loading">
+
+		
+			<header>
+    <div class="nav">
+      <!-- <div class="title"> -->
+		<a href="./landing-pg.html"><img class="logo"
+			src="https://ik.imagekit.io/ets7rprtfnk/Navbar/innerve_logo_9rT__0Z8o.png?updatedAt=1633608470018"
+			alt="Register Page"></a>
+		  <!-- </div> -->
+      <div class="toggle">
+        <div class="bar"></div>
+      </div>
+
+      <nav class="">
+        <div class="showcase">
+          <div class="showcase-container">
+            <ul class="showcase-menu">
+              <li><img src="https://ik.imagekit.io/ets7rprtfnk/Navbar/join_4Eg4OpZMzWp.png?updatedAt=1633608470682" alt="Register Page" /></li>
+                                <li><img src="https://ik.imagekit.io/ets7rprtfnk/Navbar/events_SnQ49JNWQ.png?updatedAt=1633608468152" alt="Events Image" /></li>
+                                <li><img src="https://ik.imagekit.io/ets7rprtfnk/Navbar/gallery_8o234x7ENyy.png?updatedAt=1633608468825" alt="Gallery" /></li>
+                                <li><img src="https://ik.imagekit.io/ets7rprtfnk/Navbar/sponsorship_SQltNpslr2j.png?updatedAt=1633608472397" alt="Sponsorship" /></li>
+                                <li>
+                                    <img src="https://ik.imagekit.io/ets7rprtfnk/Navbar/socialCampaign_T-4zAgsm8.png?updatedAt=1633608471528" alt="Social Campaign" />
+                                </li>
+                                <li><img src="https://ik.imagekit.io/ets7rprtfnk/Navbar/team_36kg9X4S6CZ.png?updatedAt=1633608473335" alt="Meet the Team" /></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="menu">
+          <ul class="main-menu">
+			<li class="active"><a href="/form copy/form.html">Register</a></li>
+			
+			<li><a href="../events_landing.html">Events</a></li>
+			<li><a href="../gallery.html">Gallery</a></li>
+			<li><a href="../sponsors.html">Sponsors</a></li>
+			<li><a href="../timeline.html">Timeline</a></li>
+			<li><a href="../team.html">Meet the Team</a></li>
+          </ul>
+        </div>
+      </nav>
+
+    </div>
+  </header>
+	
+
+  <div class="teamcontent">
+        <svg height="20vw" width="100vw">
+            <def>
+            <style>
+                @import url("https://fonts.googleapis.com/css?  family=Lora:400,400i,700,700i");
+                
+            </style>
+            </def>
+            <text x="50vw" y="10vw" text-anchor="middle">
+            MEET THE TEAM
+            </text>
+                
+            </svg>
+       
+		</div>
+	</div>
+  	<main>
+	 <div class="content">		
+			<div class="grid">
+				<a class="grid__item" href="#preview-1">
+					<div class="box">
+
+						<img class="box__img" src="img/1.jpg" alt="Some image"/>
+            	<div class="box__shadow"></div>
+							<h3 class="box__title"><span class="box__title-inner" data-hover="WEB-D">WEB-D</span></h3>
+							<h4 class="box__text"><span class="box__text-inner">Innerve</span></h4>
+					
+						</div>
+					</a>
+
+					<a class="grid__item" href="#preview-3">
+						<div class="box">
+              <div class="box__shadow"></div>
+							<img class="box__img" src="img/3.jpg" alt="Some image"/>
+							<h3 class="box__title"><span class="box__title-inner" data-hover="West">West</span></h3>
+							<h4 class="box__text box__text--topcloser"><span class="box__text-inner">Green</span></h4>
+							
+						</div>
+					</a>
+
+          <a class="grid__item" href="#preview-4">
+					<div class="box">
+						<img class="box__img" src="img/5.jpg" alt="Some image"/>
+            	<div class="box__shadow"></div>
+							<h3 class="box__title"><span class="box__title-inner" data-hover="Catch">Catch</span></h3>
+							<h4 class="box__text"><span class="box__text-inner">Fire</span></h4>		
+						</div>
+					</a>
+
+					<a class="grid__item" href="#preview-5">
+						<div class="box">
+              <div class="box__shadow"></div>
+							<img class="box__img" src="img/6.jpg" alt="Some image"/>
+							<h3 class="box__title"><span class="box__title-inner" data-hover="Lim">Lim</span></h3>
+							<h4 class="box__text box__text--topcloser"><span class="box__text-inner">Breed</span></h4>
+							
+						</div>
+					</a>
+			
+          <a class="grid__item" href="#preview-6">
+					<div class="box">
+						<img class="box__img" src="img/5.jpg" alt="Some image"/>
+            	<div class="box__shadow"></div>
+							<h3 class="box__title"><span class="box__title-inner" data-hover="Hard">Hard</span></h3>
+							<h4 class="box__text"><span class="box__text-inner">Fast</span></h4>		
+						</div>
+					</a>
+
+					<a class="grid__item" href="#preview-7">
+						<div class="box">
+              <div class="box__shadow"></div>
+							<img class="box__img" src="img/6.jpg" alt="Some image"/>
+							<h3 class="box__title"><span class="box__title-inner" data-hover="Red">Red</span></h3>
+							<h4 class="box__text box__text--topcloser"><span class="box__text-inner">Life</span></h4>
+							
+						</div>
+					</a>
+
+          <a class="grid__item" href="#preview-8">
+					<div class="box">
+						<img class="box__img" src="img/4.jpg" alt="Some image"/>
+            	<div class="box__shadow"></div>
+							<h3 class="box__title"><span class="box__title-inner" data-hover="Jack">Jack</span></h3>
+							<h4 class="box__text"><span class="box__text-inner">Bust</span></h4>		
+						</div>
+					</a>
+
+					<a class="grid__item" href="#preview-9">
+						<div class="box">
+              <div class="box__shadow"></div>
+							<img class="box__img" src="img/10.jpg" alt="Some image"/>
+							<h3 class="box__title"><span class="box__title-inner" data-hover="Wild">Wild</span></h3>
+							<h4 class="box__text box__text--topcloser"><span class="box__text-inner">Zack</span></h4>
+							
+						</div>
+					</a>
+
+          <a class="grid__item" href="#preview-8">
+					<div class="box">
+						<img class="box__img" src="img/4.jpg" alt="Some image"/>
+            	<div class="box__shadow"></div>
+							<h3 class="box__title"><span class="box__title-inner" data-hover="Lost">Lost</span></h3>
+							<h4 class="box__text"><span class="box__text-inner">Rust</span></h4>		
+						</div>
+					</a>
+
+					<a class="grid__item" href="#preview-9">
+						<div class="box">
+              <div class="box__shadow"></div>
+							<img class="box__img" src="img/12.jpg" alt="Some image"/>
+							<h3 class="box__title"><span class="box__title-inner" data-hover="Grid">Grid</span></h3>
+							<h4 class="box__text box__text--topcloser"><span class="box__text-inner">Mud</span></h4>
+							
+						</div>
+					</a>
+
+				</div>
+			</div>
+			<div class="overlay">
+				<div class="overlay__reveal"></div>
+				<div class="overlay__item" id="preview-1">
+					<div class="box">
+            <div class="box__shadow"></div>
+						<img class="box__img box__img--original" src="img/original/1.jpg" alt="Some image"/>
+						<h3 class="box__title"><span class="box__title-inner">WEB-D</span></h3>
+						<h4 class="box__text"><span class="box__text-inner">WEB-D</span></h4>
+						<div class="box__deco">&#10014;</div>
+				<div class="overlay__item" id="preview-2">
+					<div class="box">
+            <div class="box__shadow"></div>
+						<img class="box__img box__img--original" src="img/original/2.jpg" alt="Some image"/>
+						<h3 class="box__title box__title--straight box__title--bottom"><span class="box__title-inner">Gun</span></h3>
+						<h4 class="box__text box__text--bottom"><span class="box__text-inner box__text-inner--rotated1">Rain</span></h4>
+						<div class="box__deco box__deco--top">&#10115;</div>
+				<div class="overlay__item" id="preview-3">
+					<div class="box">
+            <div class="box__shadow"></div>
+						<img class="box__img box__img--original" src="img/original/3.jpg" alt="Some image"/>
+						<h3 class="box__title"><span class="box__title-inner">West</span></h3>
+						<h4 class="box__text box__text--topcloser"><span class="box__text-inner">Green</span></h4>
+						<div class="box__deco">&#10032;</div>
+				<div class="overlay__item" id="preview-4">
+					<div class="box">
+            <div class="box__shadow"></div>
+						<img class="box__img box__img--original" src="img/original/5.jpg" alt="Some image"/>
+						<h3 class="box__title"><span class="box__title-inner">Catch</span></h3>
+						<h4 class="box__text box__text--bottom box__text--right"><span class="box__text-inner box__text-inner--rotated3">Fire</span></h4>
+				<div class="overlay__item" id="preview-5">
+					<div class="box">
+            <div class="box__shadow"></div>
+						<img class="box__img box__img--original" src="img/original/6.jpg" alt="Some image"/>
+						<h3 class="box__title"><span class="box__title-inner">Lim</span></h3>
+						<h4 class="box__text box__text--bottomcloser"><span class="box__text-inner">Breed</span></h4>
+				<div class="overlay__item" id="preview-6">
+					<div class="box">
+            <div class="box__shadow"></div>
+						<img class="box__img box__img--original" src="img/original/7.jpg" alt="Some image"/>
+						<h3 class="box__title"><span class="box__title-inner">Hard</span></h3>
+						<h4 class="box__text"><span class="box__text-inner">Fast</span></h4>
+				<div class="overlay__item" id="preview-7">
+					<div class="box">
+            <div class="box__shadow"></div>
+						<img class="box__img box__img--original" src="img/original/8.jpg" alt="Some image"/>
+						<h3 class="box__title box__title--straight box__title--bottom"><span class="box__title-inner">Red</span></h3>
+						<h4 class="box__text box__title--bottom"><span class="box__text-inner box__text-inner--rotated1">Life</span></h4>
+					</div>
+					<p class="overlay__content">It's time the tale were told of how you took a child and you made him old.</p>
+				</div>
+				<div class="overlay__item" id="preview-8">
+					<div class="box">
+            <div class="box__shadow"></div>
+						<img class="box__img box__img--original" src="img/original/9.jpg" alt="Some image"/>
+						<h3 class="box__title"><span class="box__title-inner">Jack</span></h3>
+						<h4 class="box__text box__text--bottom"><span class="box__text-inner">Bust</span></h4>
+						<div class="box__deco">&#10108;</div>
+				<div class="overlay__item" id="preview-9">
+					<div class="box">
+            <div class="box__shadow"></div>
+						<img class="box__img box__img--original" src="img/original/10.jpg" alt="Some image"/>
+						<h3 class="box__title"><span class="box__title-inner">Wild</span></h3>
+						<h4 class="box__text box__text--bottom"><span class="box__text-inner">Zack</span></h4>
+					</div>
+				<div class="overlay__item" id="preview-10">
+					<div class="box">
+            <div class="box__shadow"></div>
+						<img class="box__img box__img--original" src="img/original/11.jpg" alt="Some image"/>
+						<h3 class="box__title box__title--bottom"><span class="box__title-inner">Lost</span></h3>
+						<h4 class="box__text"><span class="box__text-inner box__text-inner--rotated2">Rust</span></h4>
+					</div>
+					<p class="overlay__content">It's time the tale were told of how you took a child and you made him old.</p>
+				</div>
+				<div class="overlay__item" id="preview-11">
+					<div class="box">
+            <div class="box__shadow"></div>
+						<img class="box__img box__img--original" src="img/original/12.jpg" alt="Some image"/>
+						<h3 class="box__title box__title--straight box__title--left"><span class="box__title-inner">Grit</span></h3>
+						<h4 class="box__text box__text--bottom box__text--right"><span class="box__text-inner box__text-inner--rotated3">Mud</span></h4>
+						<div class="box__deco box__deco--top">&#10153;</div>
+				<button class="overlay__close"><svg class="icon icon--cross"><use xlink:href="#icon-cross"></use></svg></button>
+			</div>
+      
+      <!-- INJECTING FOOTER-->
+</main>
+	<section>
+</section>
+<!-- <footer> -->
+	<footer class="footer__desktop">
+      <div class="container">
+        <ul class="accordion">
+          <li class="tabs">
+            <div class="social-links twitter-icon">
+              <a
+                href="https://twitter.com/Innerveigdtuw?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+                >Twitter</a
+              >
+            </div>
+            <div class="paragraph">
+              <h1>Twitter</h1>
+              <p>
+                My thoughts in 140 characters or less. Sometimes, I do not know
+                how to correctly use Twitter.
+              </p>
+            </div>
+          </li>
+          <li class="tabs">
+            <div class="social-links facebook-icon">
+              <a href="https://www.facebook.com/igdtuwinnerve/">Facebook</a>
+            </div>
+            <div class="paragraph">
+              <h1>Facebook</h1>
+              <p>
+                Where I get to stalk my friends and let them stalk me. A place
+                to get people to stroke your ego.
+              </p>
+            </div>
+          </li>
+          <li class="tabs">
+            <div class="social-links linkedin-icon">
+              <a href="https://www.linkedin.com/company/innerve/mycompany/"
+                >LinkedIn</a
+              >
+            </div>
+            <div class="paragraph">
+              <h1>LinkedIn</h1>
+              <p>
+                I act totally professional on this one. It is what the
+                recruiters see, you see.
+              </p>
+            </div>
+          </li>
+          <li class="tabs">
+            <div class="social-links insta-icon">
+              <a href="https://www.instagram.com/innerveigdtuw/?hl=en"
+                >Instagram</a
+              >
+            </div>
+            <div class="paragraph">
+              <h1>Instagram</h1>
+              <p>
+                Where I post my duckface pictures. Occasionally, I would post
+                pictures of my food and my cats.
+              </p>
+            </div>
+          </li>
+          <li class="tabs">
+            <div class="social-links youtube-icon">
+              <a href="https://www.youtube.com/c/innerveigdtuw">Youtube</a>
+            </div>
+            <div class="paragraph">
+              <h1>YouTube</h1>
+              <p>
+                Just kidding! I do not have a YouTube account. I'm not too fond
+                of the camera.
+              </p>
+            </div>
+          </li>
+          <li class="tabs">
+            <div class="social-links map-marker-icon">
+              <a href="https://goo.gl/maps/eA8rp89hmaTWTqK9A">Google Maps</a>
+            </div>
+            <div class="paragraph">
+              <h1>Google Maps</h1>
+              <p>Google Maps! Cause you got to get there.</p>
+            </div>
+          </li>
+          <!-- <li class="tabs">
+		 	<div class="social-links discord-icon">
+			  <a href="https://discord.com/">Discord</a>
+			</div>
+			<div class="paragraph">
+			  <h1>Discord</h1>
+			  <p> A place that makes it easy to talk every day and hang out more often.</p>
+			</div>
+		  </li> -->
+        </ul>
+      </div>
+   </footer>
+	
+    <!-- for mobile viewport -->
+    <div class="mobile-footer">
+      <!-- <div class="notice" id="main-notice">
+        
+      </div> -->
+      <div class="fcontent">
+		<div id="circle1" data-note="c" class="circle">
+			<a href="https://www.facebook.com/igdtuwinnerve/"><i class="fa fa-facebook-square" aria-hidden="true"></a></i>
+		</div>
+		<div id="circle2" data-note="c-sharp" class="circle">
+			<a href="https://twitter.com/Innerveigdtuw?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"> <i
+					class="fa fa-twitter-square" aria-hidden="true"></i></a>
+		</div>
+        <div id="circle3" data-note="d" class="circle">
+          <a href="https://www.youtube.com/c/innerveigdtuw"
+            ><i class="fa fa-instagram" aria-hidden="true"></i
+          ></a>
+        </div>
+        <!-- <div id="circle4" data-note="e" class="circle">
+          <i class="fa fa-google-plus-square" aria-hidden="true"></i>
+        </div> -->
+        <div id="circle5" data-note="e-flat" class="circle">
+          <a href="https://www.linkedin.com/company/innerve/mycompany/"
+            ><i class="fa fa-linkedin-square" aria-hidden="true"></i
+          ></a>
+        </div>
+        <div id="circle6" data-note="c" class="circle">
+          <a href="https://goo.gl/maps/eA8rp89hmaTWTqK9A"
+            ><i class="fa fa-map-marker" aria-hidden="true"></i
+          ></a>
+        </div>
+      </div>
+    </div>
+
+	<!-- </footer> -->
+	
+
+
+    	<!-- partial -->
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js'></script>
+
+	<script src='https://cdn.jsdelivr.net/mojs/latest/mo.min.js'></script>
+	<script src='https://cdn.jsdelivr.net/mojs-curve-editor/latest/mojs-curve-editor.min.js'></script>
+	<script src='https://cdn.jsdelivr.net/mojs-player/latest/mojs-player.min.js'></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+	<script src='https://use.fontawesome.com/571406dd14.js'> </script>
+  	<script src="../team/script.js"></script>
+		<script src="../team/imagesloaded.pkgd.min.js"></script>
+		<script src="../team/TweenMax.min.js"></script>
+		<script src="../js/team/demo.js"></script>
+  
+	</body>
+</html>
