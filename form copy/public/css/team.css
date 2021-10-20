@@ -382,6 +382,7 @@ header .nav nav .menu ul li .number {
   /* removed padding */
   /* padding: 0 0 0 80px; */
   overflow: hidden;
+  color: #380303;
 }
 header .nav nav .menu ul li .number span {
   display: block;
@@ -563,8 +564,8 @@ svg text {
   #nogap {
     margin-top:-880px;
   }
-
 }
+
 
 
 
@@ -679,7 +680,6 @@ svg text {
 	left: 0;
 	height: 0;
 	overflow: hidden;
-	white-space: nowrap;
 	-webkit-text-stroke: 0;
 	text-stroke: 0;
 	-webkit-text-fill-color: #DE5D83;
@@ -724,6 +724,7 @@ svg text {
 	max-width: 100%;
 	transition: filter 0.3s;
 	pointer-events: none;
+  width: 50vw;
 }
 
 /* .grid__item:hover .box__img:not(.box__img--original) {
@@ -942,7 +943,7 @@ svg text {
 	}
 
   .box__img{
-    width:100vh;
+    width:50vh;
   }
   .teamcontent{
 	position: relative;
@@ -1052,11 +1053,15 @@ body-footer {
  
 } */
 .footer__desktop {
-   position: absolute;
-   left:0px;
-   width: 100vw;
-   z-index:-1;
-   bottom:-80vw;
+  /* position: absolute; */
+  position: fixed;
+  left:0px;
+  /* width: 100vw; */
+  width: 123vw;
+  /* z-index:-1; */
+  z-index:100;
+  /* bottom:-80vw; */
+  bottom: 0px;
 }
 
 ul.accordion {
@@ -1284,6 +1289,12 @@ ul.accordion {
   }
 }
 
+.box__img{
+  width: 480px;
+  height: 480px;
+  object-fit: scale-down;
+}
+
 /* @media screen and (max-width :500px){
   .mobile-footer .content{
     flex-direction: column;
@@ -1344,12 +1355,57 @@ ul.accordion {
     stroke-width :1; 
     font-weight: 680;
   }
+  .box__img{
+    width: 200px;
+    height: 200px;
+    object-fit: scale-down;
+  }
+  .box__title-inner {
+	
+	font-size: 3.15rem;
+	
+}
+#sponsorship_core_1 {
+  font-size: 2.75rem;
+  margin-left: -15%;
+}
+
+#sponsorship_core_2 {
+  font-size: 2.75rem;
+  margin-left: -15%;
+}
+.grid {
+    
+    margin-left: 50px;
+}
 }
 @media screen and (max-width: 400px) {
  svg text{
     font-size: 20px;
     stroke-width :1; 
     font-weight: 550;
+  }
+  .grid {
+  margin-left:40px;
+}
+.box__title-inner {
+	
+	font-size: 3.15rem;
+	
+}
+#sponsorship_core_1 {
+  font-size: 2.75rem;
+  margin-left: -15%;
+}
+
+#sponsorship_core_2 {
+  font-size: 2.75rem;
+  margin-left: -15%;
+}
+.mobile-footer .fcontent {
+    
+    width: 110vw;
+  
   }
 }
 @media screen and (max-width: 300px) {
@@ -1376,3 +1432,19 @@ ul.accordion {
 }
 
 .box {z-index: -1;}
+
+@media only screen and (min-width: 1024px) {
+  .box__img{
+    width: 420px;
+    height: 420px;
+    object-fit: scale-down;
+  }
+}
+
+@media only screen and (min-width: 768px){
+  .box__img{
+    width: 420px;
+    height: 420px;
+    object-fit: scale-down;
+  }
+} 
